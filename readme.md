@@ -33,7 +33,7 @@ Aplikasi BlueTravel adalah platform yang menyediakan informasi lengkap tentang b
 5. Mengelola Data Pengguna <br />
    : Admin dapat melihat data pengguna yang terdaftar, mengedit, dan menghapus data pengguna
 <hr />
-
+<br />
 
 # Cara Install Aplikasi
 
