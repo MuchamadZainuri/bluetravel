@@ -9,7 +9,7 @@ Aplikasi BlueTravel adalah platform yang menyediakan informasi lengkap tentang b
 * Git
 * Browser Chrome
 * Composer
-* XAMPP
+* Laragon
 <br />
 
 # Fitur Aplikasi
@@ -37,7 +37,7 @@ Aplikasi BlueTravel adalah platform yang menyediakan informasi lengkap tentang b
 
 # Cara Install Aplikasi
 
-1. Clone repository ini di dalam direktori htdocs pada XAMPP dengan perintah berikut :
+1. Clone repository ini ke dalam direktori lokal menggunakan Git Bash atau Command Prompt dengan perintah berikut :
 ```bash
 git clone https://github.com/MuchamadZainuri/bluetravel.git
 ```
@@ -49,7 +49,7 @@ cd bluetravel
 ```bash
 composer install
 ```
-4. Jalankan service MySQL dan Apache pada XAMPP
+4. Jalankan service MySQL dan Apache pada Laragon
 5. Buka browser dan akses phpmyadmin dengan alamat `http://localhost/phpmyadmin`
 6. Buat database baru dengan nama `bluetravel`
 7. Import file `database.sql` ke dalam database yang telah dibuat
