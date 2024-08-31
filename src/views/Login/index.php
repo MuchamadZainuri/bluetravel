@@ -41,7 +41,7 @@
                         <form class="space-y-4 md:space-y-6" action="" method="post" autocomplete="off" spellcheck="false">
                             <div>
                                 <label for="username" class="block mb-2 text-sm font-medium text-[#1E4F87] dark:text-white">Username</label>
-                                <input type="text" name="username" id="username" class="bg-gray-50 border border-[#1E4F87] text-gray-900 rounded-lg focus:ring-[#1E4F87] focus:border-[#1E4F87] block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-[#1E4F87] dark:focus:border-[#1E4F87]" placeholder="user01" required maxlength="15" autofocus minlength="5">
+                                <input type="text" name="username" id="username" class="bg-gray-50 border border-[#1E4F87] text-gray-900 rounded-lg focus:ring-[#1E4F87] focus:border-[#1E4F87] block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-[#1E4F87] dark:focus:border-[#1E4F87]" placeholder="user01" required maxlength="15" autofocus minlength="5" pattern="^[a-z0-9]{5,15}$" title="Hanya huruf kecil dan angka, minimal 5 karakter, maksimal 15 karakter">
                             </div>
                             <div>
                                 <label for="password" class="block mb-2 text-sm font-medium text-[#1E4F87] dark:text-white">Password</label>

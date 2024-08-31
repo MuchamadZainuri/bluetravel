@@ -23,7 +23,7 @@
                             </div>
                             <div class="mb-5">
                                 <label for="email" class="block mb-2 text-xl font-normal text-[#1E4F87] dark:text-white">Email</label>
-                                <input type="email" id="email" name="email" class="shadow-sm bg-gray-50 border-2 border-[#1E4F87] text-[#1E4F87] text-lg rounded-lg focus:ring-[#1E4F87] focus:border-[#1E4F87] block w-full p-2.5" placeholder="example@gmail.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" title="Masukkan email dengan huruf kecil yang valid" maxlength="255" />
+                                <input type="email" id="email" name="email" class="shadow-sm bg-gray-50 border-2 border-[#1E4F87] text-[#1E4F87] text-lg rounded-lg focus:ring-[#1E4F87] focus:border-[#1E4F87] block w-full p-2.5" placeholder="example@gmail.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" title="Masukkan email dengan huruf kecil yang valid" maxlength="50" />
                             </div>
                             <div class="mb-6">
                                 <label for="message" class="block mb-2 text-xl font-normal text-[#1E4F87] dark:text-white">Pesan Anda</label>

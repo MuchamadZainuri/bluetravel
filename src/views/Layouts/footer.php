@@ -47,19 +47,19 @@
                 <div class="">
                     <ul class="grid grid-rows-5 gap-4">
                         <li>
-                            <a href="home" class="text-lg font-medium text-white flex items-center gap-3 align-middle">
+                            <a href="#" class="text-lg font-medium text-white flex items-center gap-3 align-middle">
                                 <i class="fas fa-location-dot text-white"></i>
                                 <p>Babakan, Ciparay, West Java 40381</p>
                             </a>
                         </li>
                         <li>
-                            <a href="about" class="text-lg font-medium text-white flex items-center gap-3 align-middle">
+                            <a href="mailto:zdacoder@gmail.com" class="text-lg font-medium text-white flex items-center gap-3 align-middle">
                                 <i class="fas fa-envelope text-white"></i>
                                 <p>zdacoder@gmail.com</p>
                             </a>
                         </li>
                         <li>
-                            <a href="contact" class="text-lg font-medium text-white flex items-center gap-3 align-middle">
+                            <a href="tel:+6281381805291" class="text-lg font-medium text-white flex items-center gap-3 align-middle">
                                 <i class="fas fa-phone text-white"></i>
                                 <p>+62 813-8180-5291</p>
                             </a>
@@ -75,17 +75,17 @@
             </div>
             <div class="flex gap-10 ms-auto">
                 <div class="bg-[#1E4F87] rounded-full w-10 h-10 flex justify-center items-center cursor-pointer">
-                    <a href="" class="text-white">
-                        <i class="fab fa-facebook-f"></i>
+                    <a href="https://github.com/MuchamadZainuri" class="text-white">
+                        <i class="fab fa-github"></i>
                     </a>
                 </div>
                 <div class="bg-[#1E4F87] rounded-full w-10 h-10 flex justify-center items-center cursor-pointer">
-                    <a href="" class="text-white">
-                        <i class="fab fa-twitter"></i>
+                    <a href="https://www.linkedin.com/in/muchamadzainuri/" class="text-white">
+                        <i class="fab fa-linkedin"></i>
                     </a>
                 </div>
                 <div class="bg-[#1E4F87] rounded-full w-10 h-10 flex justify-center items-center cursor-pointer">
-                    <a href="" class="text-white">
+                    <a href="https://www.instagram.com/z.dacoder" class="text-white">
                         <i class="fab fa-instagram"></i>
                     </a>
                 </div>

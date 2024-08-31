@@ -10,6 +10,7 @@ class Validation
         'required' => 'Data %s harus diisi.',
         'email' => '$s bukan alamat email yang valid.',
         'in' => 'Data %s tidak valid.',
+        'not_in' => 'Data %s tidak valid.',
         'numeric' => 'Data %s harus berupa angka.',
         'integer' => 'Data %s harus berupa bilangan bulat.',
         'float' => 'Data %s harus berupa angka desimal.',
@@ -59,7 +60,7 @@ class Validation
 
                 $fn = 'is_' . $rule_name;
                 if (method_exists(new Validation(), $fn)) {
-                    if ($rule_name === 'in' && is_array($params)) {
+                    if ($rule_name === 'in' || $rule_name === 'not_in' && is_array($params)) {
                         $params = array_map('trim', $params); 
                         $pass = $this->$fn($data, $field, $params);
                     }else{
@@ -373,4 +374,18 @@ class Validation
 
         return is_file($data[$field]);
     }
+
+    public function is_not_in(array $data, string $field, array $values): bool
+    {
+        if (!isset($data[$field])) {
+            return false;
+        }
+
+        if (!is_array($values)) {
+            return false;
+        }
+        
+        return !in_array($data[$field], $values);
+    }
+
 }
