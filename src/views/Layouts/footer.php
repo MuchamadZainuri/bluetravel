@@ -53,7 +53,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:zdacoder@gmail.com" class="text-lg font-medium text-white flex items-center gap-3 align-middle">
+                            <a href="mailto:zdacoder@gmail.com?Subject=Hello%20BlueTravel" class=" text-lg font-medium text-white flex items-center gap-3 align-middle">
                                 <i class="fas fa-envelope text-white"></i>
                                 <p>zdacoder@gmail.com</p>
                             </a>

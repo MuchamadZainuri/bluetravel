@@ -266,7 +266,6 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `fullname`, `phone`, `email`, `profile_image`, `password`, `role`, `created_at`, `updated_at`) VALUES
-(4, 'zainn', 'Muchamad Zainuri', '081381805291', 'muchamadzainuri6@gmail.com', '66cfefe314f9e.jpg', '$2y$10$mpp1/MXNk.LRjBgHzBRD7uwZjyQj3KDstBoIoxkcPzZPa/Nh5cojm', 'admin', '2024-08-14 08:06:22', '2024-08-29 12:35:46'),
 (11, 'andika', 'Andika Pratama', '081272761376', 'andikaprtm3@gmail.com', '66cff2d23c6ec.jpg', '$2y$10$7gSyUL2B/MkdV08P/z7i4eoFQFxHF16nmVlSJmHcfU46AxsmAfTQS', 'user', '2024-08-20 04:25:07', '2024-08-29 12:34:08'),
 (12, 'rudii', 'Rudi Sutanto', '081261273561', 'rudisutan8@gmail.com', '66cff3462c478.jpg', '$2y$10$VxezbSh2ZuVCKcAJSU8rFu9eT71JQ9y4kIMS7B9gcvmrOhJYXij/K', 'user', '2024-08-28 14:04:58', '2024-08-29 12:33:08'),
 (13, 'rezaa', 'Reza Achmad', '081267367238', 'rezaac5@gmail.com', '66cff30941407.jpg', '$2y$10$RGnCsPt7S9qEcIILuK/R1u4evzGBPFsEB7MjUu6y/QgL8PKGi44im', 'user', '2024-08-28 14:25:26', '2024-08-30 06:50:49'),
