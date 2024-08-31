@@ -6,8 +6,10 @@ Aplikasi BlueTravel adalah platform yang menyediakan informasi lengkap tentang b
 # Software Requirement
 * PHP 8.3
 * MySQL 8.0
+* Git
 * Browser Chrome
 * Composer
+* XAMPP
 <br />
 
 # Fitur Aplikasi
@@ -31,3 +33,41 @@ Aplikasi BlueTravel adalah platform yang menyediakan informasi lengkap tentang b
 5. Mengelola Data Pengguna <br />
    : Admin dapat melihat data pengguna yang terdaftar, mengedit, dan menghapus data pengguna
 <hr />
+
+
+# Cara Install Aplikasi
+
+1. Clone repository ini di dalam direktori htdocs pada XAMPP dengan perintah berikut :
+```bash
+git clone https://github.com/MuchamadZainuri/bluetravel.git
+```
+2. Masuk ke direktori aplikasi
+```bash
+cd bluetravel
+```
+3. Install dependency yang diperlukan
+```bash
+composer install
+```
+4. Jalankan service MySQL dan Apache pada XAMPP
+5. Buka browser dan akses phpmyadmin dengan alamat `http://localhost/phpmyadmin`
+6. Buat database baru dengan nama `bluetravel`
+7. Import file `database.sql` ke dalam database yang telah dibuat
+8. Masuk ke direktori src
+```bash
+cd src
+```
+9. Copy file `.env.example` dan rename menjadi `.env`
+```bash
+cp .env.example .env
+```
+10. Konfigurasi file `.env` sesuai dengan konfigurasi database yang digunakan
+```bash
+DB_HOST=localhost
+DB_DATABASE=bluetravel
+DB_USERNAME=root
+DB_PASSWORD=
+```
+11. Buka browser dan akses aplikasi dengan alamat `http://localhost/bluetravel`
+    
+12. Aplikasi siap digunakan
