@@ -37,7 +37,7 @@ Aplikasi BlueTravel adalah platform yang menyediakan informasi lengkap tentang b
 
 # Cara Install Aplikasi
 
-1. Clone repository ini ke dalam direktori lokal menggunakan Git Bash atau Command Prompt dengan perintah berikut :
+1. Buka git bash atau terminal pada direktori lokal yang diinginkan dan clone repository ini dengan perintah berikut :
 ```bash
 git clone https://github.com/MuchamadZainuri/bluetravel.git
 ```
