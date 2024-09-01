@@ -18,8 +18,8 @@ class AuthController extends Controller
     {
         if (isset($_POST['register'])) {
             $fields = [
-                'username' => 'string | required | alphanumeric | min:5 | max:20 | unique:users | lowercase | not_in:admin,administrator',
-                'fullname' => 'string | required | max:100 | min:5 | capitalize | not_in:Admin,Administrator',
+                'username' => 'string | required | alphanumeric | min:5 | max:20 | unique:users | lowercase | not_in:admin,administrator,user',
+                'fullname' => 'string | required | max:100 | min:5 | capitalize | not_in:Admin,Administrator,User',
                 'phone' => 'int | required | phone | max:12 | min:10 | unique:users',
                 'email' => 'email | required | email | unique:users | lowercase | max:100',
                 'password' => 'string | required | min:8 | secure',
@@ -33,14 +33,14 @@ class AuthController extends Controller
                     'max' => 'Username maksimal 20 karakter',
                     'unique' => 'Username sudah digunakan',
                     'lowercase' => 'Username harus huruf kecil semua',
-                    'not_in' => 'Username tidak boleh mengandung kata admin atau administrator'
+                    'not_in' => 'Username tidak boleh mengandung kata admin,administrator atau user'
                 ],
                 'fullname' => [
                     'required' => 'Nama lengkap tidak boleh kosong',
                     'max' => 'Nama lengkap maksimal 50 karakter',
                     'min' => 'Nama lengkap minimal 5 karakter',
                     'capitalize' => 'Nama lengkap harus diawali huruf kapital',
-                    'not_in' => 'Nama lengkap tidak boleh mengandung kata admin atau administrator'
+                    'not_in' => 'Nama lengkap tidak boleh mengandung kata admin,administrator atau user'
                 ],
                 'phone' => [
                     'required' => 'Nomor telepon tidak boleh kosong',
