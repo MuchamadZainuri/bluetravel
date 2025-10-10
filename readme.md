@@ -39,7 +39,7 @@ Aplikasi BlueTravel adalah platform yang menyediakan informasi lengkap tentang b
 
 1. Buka git bash atau terminal pada direktori lokal yang diinginkan dan clone repository ini dengan perintah berikut :
 ```bash
-git clone https://github.com/MuchamadZainuri/bluetravel.git
+git clone https://github.com/zdacoderr/bluetravel.git
 ```
 2. Masuk ke direktori aplikasi
 ```bash
